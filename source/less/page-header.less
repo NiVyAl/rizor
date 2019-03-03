@@ -1,0 +1,37 @@
+.page-header__top {
+  padding-top: 19px;
+  padding-bottom: 21px;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header__main-nav {
+  display: none;
+}
+
+.page-header__logo img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    //border: 1px solid red;
+  }
+  
+  .page-header__logo {
+    flex-grow: 1;
+  }
+  
+  .page-header__main-nav {
+    display: block;
+    flex-grow: 1;
+  }
+  
+  .page-header__button {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.burger-button {
+  width: 30px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  display: block;
+  padding: 0;
+  position: relative;
+}
+
+.burger-button::before,
+.burger-button::after,
+.burger-button span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  
+}
+
+.burger-button::before,
+.burger-button::after {
+  content: "";
+  position: absolute;
+}
+
+.burger-button::before {
+  top: 0;
+}
+
+.burger-button::after {
+  bottom: 0;
+}
