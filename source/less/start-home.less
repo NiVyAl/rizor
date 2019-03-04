@@ -1,11 +1,15 @@
 .start-home {
   //border: 1px solid red;
   //padding: 10px 0;
-  padding: 135px 0;
   background-image: url("img/header-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.start-home__wrapper {
+  padding-top: 135px;
+  padding-bottom: 135px;
 }
 
 .start-home__title {
@@ -31,8 +35,11 @@
     background-position: right top;
     background-image: url(img/header-tablet.jpg);
     color: black;
-    padding: 230px 0;
   } 
+  
+  .start-home__wrapper {
+    padding: 230px 0;
+  }
   
   .start-home__title {
     font-size: 64px;
@@ -41,5 +48,27 @@
   .start-home__text {
     font-size: 14px;
     padding-right: 400px
+  }
+}
+
+@media (min-width: 1200px) {
+  .start-home {
+    //background: none;
+    background-image: url("img/header-desktop.jpg");
+  }
+  
+  .start-home__wrapper {
+    /*
+    background-image: url("img/header-desktop.jpg");
+    background-position: right top;
+    background-size: auto; */
+  }
+  
+  .start-home__title {
+    font-size: 80px;  
+  }
+  
+  .start-home__text {
+    font-size: 20px;  
   }
 }

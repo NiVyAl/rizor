@@ -1,0 +1,53 @@
+.features {
+  padding: 40px 0;
+}
+
+.features__title {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3a2ff8;
+  text-align: center;
+}
+
+.features__category-title {
+  font-size: 24px;
+  font-family: 'Rubik Mono One';
+  text-transform: uppercase;
+}
+
+.features__text,
+.features__list {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.features__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features__item {
+  padding-left: 38px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.features__item::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  //margin-top: -2px;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+}
