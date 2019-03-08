@@ -1,0 +1,36 @@
+.design__video {
+  display: none;
+}
+
+@media (min-width: @tablet-width) {
+  .design {
+    display: flex;
+    padding: 30px 0;
+  }
+  
+  .design__video {
+    display: block;
+    width: 374px;
+    background-image: url("img/design-tablet.jpg");
+    background-repeat: no-repeat;
+    //flex-grow: 1;
+    position: relative;
+  }
+  
+  .design__wrapper {
+    //padding: 0;
+    padding-top: 160px;
+    padding-bottom: 170px;
+    align-items: flex-start;
+    //flex-grow: 0;
+  }
+  
+  .design__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}

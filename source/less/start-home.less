@@ -29,7 +29,7 @@
   letter-spacing: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: @tablet-width) {
   .start-home {
     background-size: auto;
     background-position: right top;
@@ -38,7 +38,8 @@
   } 
   
   .start-home__wrapper {
-    padding: 230px 0;
+    padding-top: 230px;
+    padding-bottom: 230px;
   }
   
   .start-home__title {
@@ -51,7 +52,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: @desktop-width) {
   .start-home {
     //background: none;
     background-image: url("img/header-desktop.jpg");

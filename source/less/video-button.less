@@ -1,0 +1,41 @@
+.video-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+.video-button::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.video-button::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 1px;
+  border: 20px solid #3a30f8;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  
+  border-left-width: 35px;
+  border-right-width: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  
+  right: -10px;
+}
